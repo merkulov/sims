@@ -74,8 +74,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Integration\ItemCRUD.cs" />
+    <Compile Include="Integration\StockOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StockOperations.cs" />
+    <Compile Include="Unit\ItemTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
