@@ -1,0 +1,19 @@
+{
+  "name": "sims-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "Mikhail Merkulov",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "rxjs": "^5.4.0"
+  }
+}
